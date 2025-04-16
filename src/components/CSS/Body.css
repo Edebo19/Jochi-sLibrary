@@ -1,0 +1,71 @@
+.WelcomeBody{
+    height: 86vh;
+    width: 100%;
+    background: rgb(153, 49, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    color: white;
+    animation: fadeIn;
+    animation-duration: 2.3s;
+}
+.copyRight{
+    height: 4vh;
+    width: 100%;
+    background: rgb(153, 49, 153);
+    display: flex;
+    color: white;
+    font-size: 14px;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.hold-writeup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+
+    @media screen and (max-width: 768px) {
+        max-width: 80%;
+    }
+
+    & h3{
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 20px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+            padding-bottom: 0;
+            padding-top: 20px;
+        }
+    }
+    & p{
+        text-align: center;
+        font-size: 20px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+    & .homebtn{
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 10px 15px 10px 15px;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        background: white;
+        color: purple;
+        transition: all 350ms ease-in-out;
+        transform: scale(1);
+    }
+
+    & .homebtn:hover{
+        cursor: pointer;
+        transition: all 350ms ease-in-out;
+        transform: scale(1.03);
+        outline: 1px solid rgb(73, 25, 73);
+    }
+}

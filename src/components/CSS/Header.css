@@ -1,0 +1,22 @@
+.Header{
+    height: 10vh;
+    width: 100%;
+    background: purple;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.HeaderWrapper{
+    height: 100%;
+    width: 90%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
